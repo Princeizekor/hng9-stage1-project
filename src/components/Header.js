@@ -3,21 +3,21 @@ import React from "react";
 export default function Header() {
   return (
     <div>
-      <button className="header-desktop-share">
+      <a className="header-desktop-share">
         <img
           style={{width: "50px", height: "50px"}}
           src="../img/_Avatar share button.jpg"
           alt=""
         />
-      </button>
-      <button className="header-desktop-share header-mobile-share">
+      </a>
+      <a className="header-desktop-share header-mobile-share">
         <img
           style={{width: "13px", height: "5px"}}
           
           src="../img/dot-icon.svg"
           alt=""
         />
-      </button>
+      </a>
       <div className="desc">
         <div className="share-description">
           Share Link
