@@ -11,8 +11,8 @@ function Link() {
       </div>
 
         <div className='socials'>
-            <img src="../img/slack.svg" alt="" />
-            <a href="https://github.com/Princeizekor"><img src="../img/github.svg" alt="" /></a>
+            <img src="../img/slack.svg" alt="slack icon" />
+            <a href="https://github.com/Princeizekor"><img src="../img/github.svg" alt="github icon" /></a>
         </div>
     </div>
   )

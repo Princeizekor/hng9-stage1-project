@@ -7,7 +7,7 @@ export default function Header() {
         <img
           style={{width: "50px", height: "50px"}}
           src="../img/_Avatar share button.jpg"
-          alt=""
+          alt="share-icon"
         />
       </a>
       <a className="header-desktop-share header-mobile-share">
@@ -15,7 +15,7 @@ export default function Header() {
           style={{width: "13px", height: "5px"}}
           
           src="../img/dot-icon.svg"
-          alt=""
+          alt="dotted icon"
         />
       </a>
       <div className="desc">
@@ -27,13 +27,13 @@ export default function Header() {
 
       <div className="profile">
         <div className="profile-img-container">
-          <img id="profile__img" src="../img/90438398.jpg" alt="" />
+          <img id="profile__img" src="../img/90438398.jpg" alt="profile_image" />
           <div className="profile-hover">
-            <img className="camera" src="../img/camera.svg" alt="" />
+            <img className="camera" src="../img/camera.svg" alt="camera-icon" />
           </div>
         </div>
-        <p id="twitter">PaulIzekor</p>
-        <p id="slack">PaulIzekor</p>
+        <p id="twitter">PaullIzekor</p>
+        <p id="slack">izekor</p>
       </div>
     </div>
   );
