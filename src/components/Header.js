@@ -5,7 +5,7 @@ export default function Header() {
     <div>
       <button className="header-desktop-share">
         <img
-          style={{width: "15px", height: "14px"}}
+          style={{width: "50px", height: "50px"}}
           src="../img/_Avatar share button.jpg"
           alt=""
         />

@@ -79,14 +79,14 @@
 }
 
 .profile-img-container {
-    width: 88px;
-    height: 88px;
+    width: 5.5rem;
+    height: 5.5rem;
     position: relative;
 }
 
 #profile__img {
-    width: 88px;
-    height: 88px;
+    width: 5.5rem;
+    height: 5.5rem;
     border-radius: 100%;
 }
 

@@ -1,6 +1,6 @@
 const linkData = [
     {
-        id: 'twitter__link',
+        id: 'twitter',
         title: 'Twitter Link',
         link: 'https://twitter.com/Paullizekor'
     },
