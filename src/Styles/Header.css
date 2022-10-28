@@ -1,0 +1,150 @@
+.header-desktop-share {
+    position: absolute;
+    right: 208px;
+    top: 30px;
+    border-radius: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s all ease;
+}
+
+.header-desktop-share:hover {
+    background: #F9FAFB;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.header-desktop-share:focus {
+    background: #FFFFFF;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    opacity: 0.6;
+    box-shadow: 0px 0px 0px 4px #F2F4F7 !important;
+}
+
+.header-mobile-share {
+    display: none;
+}
+
+.mobile-share-hover {
+    display: none;
+}
+
+.desc {
+    position: absolute;
+    right: 259px;
+    top: 35px;
+    opacity: 0;
+    transition: 0.3s all ease;
+}
+
+.header-desktop-share:hover ~ .desc {
+    opacity: 1;
+}
+
+.share-description {
+    background: black;
+    color: white;
+    width: max-content;
+    position: relative;
+    font-size: 13px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.share-description div {
+    background: black;
+    position: absolute;
+    padding: 4px;
+    transform: rotate(45deg);
+    right: -4px;
+    top: 40%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-img-container {
+    width: 88px;
+    height: 88px;
+    position: relative;
+}
+
+#profile__img {
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+}
+
+.profile-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    top: 0;
+    transition: 0.3s all ease;
+}
+
+.profile-hover:hover {
+    background: linear-gradient(0deg, rgba(52, 64, 84, 0.75), rgba(52, 64, 84, 0.75));
+}
+
+.profile-hover:hover .camera {
+    opacity: 1;
+}
+
+.camera {
+    position: absolute;
+    left: calc(50% - 10px);
+    bottom: 12.5%;
+    opacity: 0;
+    transition: 0.3s all ease;
+}
+
+.profile p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #101828;
+}
+
+#slack {
+    display: none
+}
+
+@media screen and (max-width: 768px) {
+    .profile p {
+        font-size: 18px;
+    }
+    .header-desktop-share {
+        right: 20px;
+        display: none;
+    }
+    .header-mobile-share {
+        display: block;
+    }
+    .mobile-share:hover {
+        display: none;
+    }
+    .mobile-share:hover ~ .mobile-share-hover {
+        display: block;
+    }
+    .header-desktop-share:hover ~ .desc {
+        display: none;
+    }
+}
