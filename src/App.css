@@ -2,6 +2,7 @@
 @import url("./Styles/Header.css");
 @import url("./Styles/Link.css");
 @import url("./Styles/Footer.css");
+@import url("./Styles/Contact.css");
 body {
   margin: 0;
   padding: 0;

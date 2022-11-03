@@ -1,0 +1,44 @@
+EL'TANA
+Hi Front-End Devs @channel
+ HERE IS YOUR FRONT-END STAGE TWO(2) TASK
+:bulb:Primary Reading materials
+React
+React router dom
+How to host on Github or Netlify
+:bulb:Task Duration: 3 Days
+:bulb:Submission Details:
+Link: Click Here to Submit.
+Deadline: Saturday 5th Nov 2022 - 11:59PM WAT
+:bulb:Task UI Design:
+Click Here to view the UI Design on Figma.
+:bulb:Task Details:
+Continue from the stage 1 task,
+Add another anchor tag styled as a Button with an id of 'contact' that redirects to “/contact” page in your app.
+NB. The contact page path must be "/contact"
+The contact page should have a form with the following details:
+A First and last name input fields with ids ‘first_name’ and ‘last_name’ respectively
+An Email address input field with an id of ‘email’
+A Textarea with an id of ‘message’ to contain the message of the person
+A button with an id of ‘btn__submit’ that will submit the form
+All fields should have appropriate label tags
+:bulb:Requirements:
+You're required to use Only React.Js and React-Router-DOM to complete this task. (No React.Ts, Next.Ts/Next.Js, Gatsby etc. is allowed)
+You may use any CSS Framework/Library or CSS Preprocessor of your choice for styling.
+Make sure you Implement the UI Design on Figma and also Follow all the instructions on the Notion page.
+You Must make frequent atomic commits to your GitHub repository and keep standard on commit messages.
+Example:
+feat: The new feature you're adding to a particular application
+fix: A bug fix
+style: Feature and updates related to styling
+refactor: Refactoring a specific section of the code-base
+test: Everything related to testing
+docs: Everything related to documentation
+chore: Regular code maintenance.
+:bulb: NB:
+You can only make one(1) Submission when you're done.
+If you have a correction/bug to fix, review your code, make changes, commit and push to the same GitHub repository you deployed and submitted the Link.
+All corrections/fixes must be done on/before deadline day and time.
+Everyone will be graded at the same time once all Submission have been received and Deadline has elapsed.
+Happy Hacking!
+Show less (edited) 
+Posted in announcements-projects | Today at 7:35 AM | View message
