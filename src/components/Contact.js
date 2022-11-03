@@ -68,7 +68,7 @@ function Contact() {
           <input type="checkbox" id="checkbox" checked={detail?.agree} onChange={() => setDetail({
             ...detail,
                         agree: !detail?.agree
-                    })} required />You agree to providing your data to Paulizekor who may contact you.
+                    })} required />You agree to providing your data to izekor who may contact you.
           <span className="check"></span>
         </label><br />
 
