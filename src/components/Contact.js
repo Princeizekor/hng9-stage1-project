@@ -13,7 +13,7 @@ function Contact() {
  const handleFormSubmition = (e) => {
    e.preventDefault();
 
-   if (detail.firstName !== '' || detail.lastName !== '' || detail.firstName !== '' || detail.firstName !== '' || !detail.agree) {
+   if (detail.firstName !== '' || detail.lastName !== '' || !detail.agree) {
     setDetail({
       firstName: '',
       lastName: '',
@@ -21,6 +21,7 @@ function Contact() {
       message: '',
       agree: false
     })
+    alert(`Hello ${detail?.firstName} Your message "${detail?.message}" was delivered successfuly, ${name} will be with you shortly`)
     return;
    }
  };
@@ -28,6 +29,8 @@ function Contact() {
   useEffect(() => {
     window.scroll(0,0)
   }, [])
+
+  const name = "izekor"
 
   return (
     <div className="contact">
@@ -68,7 +71,7 @@ function Contact() {
           <input type="checkbox" id="checkbox" checked={detail?.agree} onChange={() => setDetail({
             ...detail,
                         agree: !detail?.agree
-                    })} required />You agree to providing your data to izekor who may contact you.
+                    })} required />You agree to providing your data to {name} who may contact you.
           <span className="check"></span>
         </label><br />
 
